@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "crons": [
+    {
+      "path": "/api/cron/auto-paper-open",
+      "schedule": "0 20 * * 1-5"
+    },
+    {
+      "path": "/api/cron/auto-paper-mark",
+      "schedule": "30 20 * * 1-5"
+    }
+  ]
+}
